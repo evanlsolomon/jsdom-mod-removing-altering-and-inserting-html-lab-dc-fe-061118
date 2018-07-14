@@ -3,7 +3,7 @@ var main = document.getElementById('main');
 main.remove();
 
 /* Create your new element here and assign it to newHeader */
-const newHeader = h1 (id = 'victory', innerHTML = 'Evan is the champion');
+const newHeader = h1;
 newHeader.innerHTML = ('Evan is the champion!');
 newHeader.id = "victory";
 document.body.appendChild(newHeader);
