@@ -5,5 +5,5 @@ main.remove();
 /* Create your new element here and assign it to newHeader */
 var newHeader = document.createElement('H1');
 newHeader.innerHTML = ('Evan is the champion!');
-newHeader.id = "victory";
+newHeader.id = 'victory';
 document.body.appendChild(newHeader);
