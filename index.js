@@ -4,10 +4,6 @@ main.remove();
 
 /* Create your new element here and assign it to newHeader */
 const newHeader = h1 (id = 'victory', innerHTML = 'Evan is the champion');
-
+newHeader.innerHTML = ('Evan is the champion!');
 newHeader.id = "victory";
 document.body.appendChild(newHeader);
-myHeader.innerHTML = ('Evan is the champion!');
-document.body.newHeader.appendChild(myHeader);
-
-
